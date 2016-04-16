@@ -11,7 +11,6 @@ public class MainGameLoop {
 		DisplayManager.createDisplay();
 		
 		while(!Display.isCloseRequested()){
-			System.out.println("ghgh");
 			DisplayManager.updateDisplay();
 		}
 		
